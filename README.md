@@ -10,15 +10,6 @@
 - Install requirements : pip install  -r requirements.txt
 - Set your project directory as  AIRFLOW_HOME variable : export AIRFLOW_HOME=PATH_TO_YOUR_PROJECT_DIRECTORY
 - init the airflow project: airflow initdb
-- Set smtp server in airflow.cfg :
-    - [smtp] If you want airflow to send emails on retries, failure, and you want to use the airflow.utils.email.send_email_smtp function, you have to configure an smtp server here
-    - smtp_host = smtp.sendgrid.net
-    - smtp_starttls = True
-    - smtp_ssl = False
-    - smtp_user = azure_a7f0605203ef91d605d64e0d7fab9351@azure.com
-    - smtp_password = Z&"3Wj7AycXyBkN8/J7#y;n;nJ/y7@snH#9F+~?Ht5eDaGSFKD
-    - smtp_port = 587
-    - smtp_mail_from = themailyouwant@whatever.com
 - Configure pycharm or whatever u use  to point to the virtualenv: you ready to go!!!!!!
 
 
