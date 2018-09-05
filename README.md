@@ -1,6 +1,6 @@
 # workshop_airflow
 
-#Installation
+# Installation
 - Git clone project
 - make sure python 3.6 is installed //not another version
 - Make sure pip is installed or install it
@@ -15,11 +15,11 @@
     - smtp_host = smtp.sendgrid.net
     - smtp_starttls = True
     - smtp_ssl = False
-    - # Uncomment and set the user/pass settings if you want to use SMTP AUTH
     - smtp_user = azure_a7f0605203ef91d605d64e0d7fab9351@azure.com
     - smtp_password = Z&"3Wj7AycXyBkN8/J7#y;n;nJ/y7@snH#9F+~?Ht5eDaGSFKD
     - smtp_port = 587
     - smtp_mail_from = themailyouwant@whatever.com
 - Configure pycharm or whatever u use  to point to the virtualenv: you ready to go!!!!!!
+
 
 This repo contains a helper class to parse apis we are going to use for the workshop
